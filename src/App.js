@@ -1,11 +1,13 @@
 import './App.css';
-import Counter from './features/counter/Counter';
+import HamburgerCounter from './features/counter/HamburgerCounter';
+import DrinkCounter from './features/counter/DrinkCounter';
 
 function App() {
   return (
     <div className="App">
       hello
-      <Counter />
+      <HamburgerCounter />
+      <DrinkCounter />
     </div>
   );
 }

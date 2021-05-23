@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from './features/counter/counterSlice';
+import hamburgerCounterReducer from './features/counter/hamburgerCounterSlice';
+import drinkCounterReducer from './features/counter/drinkCounterSlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    hamburgerCounter: hamburgerCounterReducer,
+    drinkCounter: drinkCounterReducer,
   },
 });
